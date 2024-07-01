@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import CustomButton from './UI/button/CustomButton'
+import CustomButton from './UI/button/ThemeButton'
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
     
     
-    <div className="w-full h-[80px] fixed top-0 left-0 right-0 z-50 border-b-[1px] border-b-white/25 backdrop-blur-xl">
+    <header className="w-full h-[80px] fixed top-0 left-0 right-0 z-50 border-b-[1px] border-b-white/25 backdrop-blur-md">
         <nav className='w-[96%] h-[inherit] flex items-center justify-start gap-2 mx-auto'>
             {/* NAV IMAGE START */}
             <div className='mx-2 w-fit hidden md:block'>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </div>
             {/* BUTTONS END */}
         </nav>
-    </div>
+    </header>
 
     <div className={`block md:hidden w-full h-fit fixed top-0 left-0 right-0 z-[60] bg-primary shadow-lg shadow-white/10 translate-y-[-200%] ${mobileNav && "!translate-y-0"} duration-300 transition-transform`}>
             <nav className='w-full h-fit relative pb-4'>

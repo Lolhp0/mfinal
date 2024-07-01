@@ -14,12 +14,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        "font-poppins": "var(--font-poppins)",
+        "nunito": "var(--nunito)",
+        "poppins": "var(--poppins)",
       },
       colors: {
         "primary": "#010101",
         "secondary": "#080808",
       },
+      boxShadow: {
+        "buttonSize": "12px 6px 2px 1px"
+      }
     },
   },
   plugins: [],
