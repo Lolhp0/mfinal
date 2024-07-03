@@ -8,6 +8,7 @@ const nunito = Nunito({ subsets: ["latin"], weight: ["200", "300", "400", "500",
 export const metadata: Metadata = {
   title: "Hagop Hovaguimian",
   description: "My custom website",
+
 };
 
 export default function RootLayout({

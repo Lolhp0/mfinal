@@ -1,3 +1,22 @@
+export const NavLinks: Array<{title: string; url: string;}> = [
+    {
+        title: "Home",
+        url: "/",
+    },
+    {
+        title: "Projects",
+        url: "/projects",
+    },
+    {
+        title: "Experience",
+        url: "/experience",
+    },
+    {
+        title: "Achievements",
+        url: "/achievements",
+    },
+]
+
 export const ExploreLinks: Array<{title: string; url: string}> = [
     {
         title: "Home",
